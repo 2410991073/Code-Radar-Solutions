@@ -5,10 +5,10 @@ int main(){
     scanf("%c",&ch);
 
     if(isupper(ch)){
-        printf("Uppercase %c\n",ch);
+        printf("Uppercase \n",ch);
     }
     else if(islower(ch)){
-        printf("Lowercase %c\n",ch);
+        printf("Lowercase \n",ch);
     }
     else{
         printf("Not an alphabet\n");
