@@ -8,8 +8,6 @@ int main(){
     float Area;
     Area = PI*radius*radius;
 
-    printf("Area: %f\n",Area);
+    printf("Area: %.2f\n",Area);
     return 0;
-
-
 }
