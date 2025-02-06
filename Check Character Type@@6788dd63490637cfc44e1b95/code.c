@@ -7,7 +7,7 @@ int main() {
     
     // Input a character
     scanf("%c", &ch);
-    scanf("%d",&D;
+    scanf("%d",&D);
 
     // Check if the character is a vowel or consonant
     if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
