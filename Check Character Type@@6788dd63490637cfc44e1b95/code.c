@@ -3,11 +3,11 @@
 int main() {
     char ch;
 
-    int Digit;
+    int D;
     
     // Input a character
     scanf("%c", &ch);
-    scanf("%d",&Digit);
+    scanf("%d",&D;
 
     // Check if the character is a vowel or consonant
     if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
