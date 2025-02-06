@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main(){
-    char Nmae[100];
+    char Name[100];
     int Age;
     char Hobby[100];
 
-    scanf("%s",&Name);
+    scanf("%s",Name);
     scanf("%d",&Age);
-    scanf("%s",&Hobby);
+    scanf("%s",Hobby);
 
     printf("Name: %s\n",Name);
     printf("Age: %d\n",Age);
