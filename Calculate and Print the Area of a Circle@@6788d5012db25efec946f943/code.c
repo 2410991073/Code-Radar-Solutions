@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     float radius;
-    const PI = 3.14;
+    const  float PI = 3.14;
 
     scanf("%f",&radius);
 
