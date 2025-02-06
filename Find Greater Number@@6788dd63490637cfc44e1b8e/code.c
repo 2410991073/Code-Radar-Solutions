@@ -10,8 +10,6 @@ if(a > b){
 else if(b > a){
     printf("%d\n",b);
 }
-else{
-    printf("nothing");
-}
+
 return 0;
 }
