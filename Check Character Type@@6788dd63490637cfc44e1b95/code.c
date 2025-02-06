@@ -21,7 +21,7 @@ int main() {
         printf("Not an alphabet\n");
     }
     else {
-        printf("Digit\n");
+        printf("Digit\n",D);
     }
 
     return 0;
