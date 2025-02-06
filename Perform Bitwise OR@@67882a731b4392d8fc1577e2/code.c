@@ -6,7 +6,7 @@ int main(){
     
     int result;
     result = a|b;
-    printf("Result %d\n",Result);
+    printf("result %d\n",result);
     return 0;
 
 }
