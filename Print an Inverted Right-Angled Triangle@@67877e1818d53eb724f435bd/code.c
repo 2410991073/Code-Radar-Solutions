@@ -5,7 +5,7 @@ int main() {
     scanf("%d", &N);
 
     // Outer loop for rows
-    for(i = n; i >= 1; i--) {
+    for(i = N; i >= 1; i--) {
         // Inner loop for spaces
         for(j = 1; j <= n - i; j++) {
             printf(" ");
