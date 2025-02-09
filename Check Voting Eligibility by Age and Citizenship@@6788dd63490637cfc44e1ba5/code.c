@@ -10,7 +10,7 @@ int main(){
         printf("citizen");
     }
     else if( a>=18 && b==0){
-        printf("non-citizen");
+        printf("Not Eligible");
     }
     else if(a<=18){
         printf("Not Eligible");
