@@ -9,7 +9,7 @@ int main(){
     else if(a >=18 && b==1){
         printf("citizen");
     }
-    else if( a>=18 && b==0){
+    else if( a<=18 && b==0){
         printf("non-citizen");
     }
     else{
