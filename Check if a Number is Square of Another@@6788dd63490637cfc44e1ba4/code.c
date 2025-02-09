@@ -3,8 +3,8 @@ int main(){
     int a,b;
     scanf("%d %d",&a,&b);
 
-    if( a > 0){
-        printf("Yes",b,a*a);
+    if( a * a ==b){
+        printf("Yes");
     }
     else {
         printf("No");
