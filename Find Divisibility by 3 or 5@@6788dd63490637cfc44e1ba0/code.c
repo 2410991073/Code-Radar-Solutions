@@ -2,7 +2,7 @@
 int main(){
     int a;
 
-    scanf("%d %d",&a,&b);
+    scanf("%d",&a);
 
     if( a % 3 == 0){
         printf("Divisible by 3");
