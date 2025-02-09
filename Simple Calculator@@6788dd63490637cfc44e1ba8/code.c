@@ -6,13 +6,13 @@ int main(){
     scanf("%d %d %c",&a,&b,&c);
 
     switch(c){
-        case 1:
+        case '+':
         printf("Result: %d\n",a+b);
-        case 2:
+        case '-':
         printf("Result: %d\n",a-b);
-        case 3:
+        case '*':
         printf("Result: %d\n",a*b);
-        case 4:
+        case '/':
         printf("Result: %d\n",a/b);
         default:
         printf("error\n");
