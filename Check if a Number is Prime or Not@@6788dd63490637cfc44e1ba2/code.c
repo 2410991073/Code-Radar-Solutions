@@ -4,8 +4,6 @@ int main() {
     int num;
     int isPrime = 1;  // Assume the number is prime initially
 
-    // Take input for the number
-    printf("Enter a number: ");
     scanf("%d", &num);
 
     // Handle edge cases
