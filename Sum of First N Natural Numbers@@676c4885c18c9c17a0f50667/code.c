@@ -8,7 +8,7 @@ int main() {
         sum += i; 
     }
 
-    printf( "%d\n", N, sum);
+    printf( "%d\n");
 
     return 0;
 }
