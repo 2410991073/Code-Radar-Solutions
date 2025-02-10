@@ -8,8 +8,7 @@ int main() {
         sum += i; 
     }
 
-    // Correct the printf to display both N and sum correctly
-    printf(" %d\n", N, sum);
+    printf( "%d,%d\n", N, sum);
 
     return 0;
 }
