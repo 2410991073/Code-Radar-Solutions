@@ -3,8 +3,8 @@ int main(){
     int a;
     scanf("%d",&a);
 
-    printf("Hexademical: %x",a);
-    printf("Octal: %o",x);
+    printf("Hexademical: %x\n",a);
+    printf("Octal: %o\n",a);
 
     return 0;
 
