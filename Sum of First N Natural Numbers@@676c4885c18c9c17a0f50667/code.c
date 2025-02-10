@@ -9,7 +9,7 @@ int main() {
     }
 
     // Correct the printf to display both N and sum correctly
-    printf("The sum of the first %d natural numbers is: %d\n", N, sum);
+    printf(" %d\n", N, sum);
 
     return 0;
 }
