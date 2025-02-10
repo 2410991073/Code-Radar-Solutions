@@ -36,9 +36,9 @@ int main() {
 
     // Output result based on isPrime value
     if (isPrime == 1) {
-        printf("%d\n", num);
+        printf("Prime");
     } else {
-        printf("%d\n", num);
+        printf("Not Prime");
     }
 
     return 0;
