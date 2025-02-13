@@ -16,10 +16,10 @@ int main() {
     }
     else if ((ch >= 33 && ch <= 47) || (ch >= 58 && ch <= 64) || 
              (ch >= 91 && ch <= 96) || (ch >= 123 && ch <= 126)) {
-        printf("Digit\n");
+        printf("Special Character\n");
     }
     else {
-        printf("Special Character\n",D);
+        printf("Digit\n",D);
     }
 
     return 0;
