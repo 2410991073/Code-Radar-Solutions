@@ -14,11 +14,12 @@ int main() {
     else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
         printf("Consonant\n");
     }
-    else if {
-        printf("Special Character\n");
+    else if ((ch >= 33 && ch <= 47) || (ch >= 58 && ch <= 64) || 
+             (ch >= 91 && ch <= 96) || (ch >= 123 && ch <= 126)) {
+        printf("Digit\n");
     }
     else {
-        printf("Digit\n",D);
+        printf("Special Character\n",D);
     }
 
     return 0;
