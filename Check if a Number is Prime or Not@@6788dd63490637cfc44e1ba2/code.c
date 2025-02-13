@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int main() {
     int num;
@@ -6,7 +7,6 @@ int main() {
 
     scanf("%d", &num);
 
-    // Handle edge cases
     if (num <= 1) {
         isPrime = 0;  // Numbers less than or equal to 1 are not prime
     } else if (num == 2) {
@@ -14,23 +14,12 @@ int main() {
     } else if (num % 2 == 0) {
         isPrime = 0;  // Any even number greater than 2 is not prime
     } else {
-        // Check divisibility for odd numbers starting from 3
-        if (num % 3 == 0) {
-            isPrime = 0;
-        } else if (num % 5 == 0) {
-            isPrime = 0;
-        } else if (num % 7 == 0) {
-            isPrime = 0;
-        } else if (num % 11 == 0) {
-            isPrime = 0;
-        } else if (num % 13 == 0) {
-            isPrime = 0;
-        } else if (num % 17 == 0) {
-            isPrime = 0;
-        } else if (num % 19 == 0) {
-            isPrime = 0;
-        } else {
-            // You can continue checking for other primes as needed
+        // Check divisibility for odd numbers up to sqrt(num)
+        for (int i = 3; i <= sqrt(num); i += 2) {
+            if (num % i == 0) {
+                isPrime = 0;  // Found a divisor, so not prime
+                break;
+            }
         }
     }
 
@@ -43,4 +32,3 @@ int main() {
 
     return 0;
 }
-
