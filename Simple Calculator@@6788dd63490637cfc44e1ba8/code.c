@@ -8,16 +8,20 @@ int main(){
 
     switch(c){
         case '+':
-        printf("Result: %d\n",a+b);
+        result = a+b;
+        printf("Result: %d\n",result);
         break;
         case '-':
-        printf("Result: %d\n",a-b);
+        result= a-b;
+        printf("Result: %d\n",result);
         break;
         case '*':
-        printf("Result: %d\n",a*b);
+        result = a*b;
+        printf("Result: %d\n",result);
         break;
         case '/':
-        printf("Result: %d\n",a/b);
+        result = a/b;
+        printf("Result: %d\n",result);
         break;
         default:
         printf("error\n");
