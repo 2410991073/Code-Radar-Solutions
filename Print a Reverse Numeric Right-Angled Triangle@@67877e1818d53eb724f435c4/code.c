@@ -6,7 +6,7 @@ int main() {
     scanf("%d", &N);
 
     for (i = N; i >= 1; i--) {  
-        for (j = 1; j <= i; j++) {  /
+        for (j = 1; j <= i; j++) {  
             printf("%d", j);
         }
         printf("\n");  // Move to the next line after each row
