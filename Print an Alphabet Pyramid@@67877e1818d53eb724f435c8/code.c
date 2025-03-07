@@ -7,7 +7,7 @@ int main() {
 
     for (i = 1; i <= N; i++) {  // Outer loop for rows
         for (j = 1; j <= i; j++) {  // Inner loop for columns
-            printf("%c", 'A' + j - 1);  // Print alphabet starting from 'A'
+            printf("%c ", 'A' + j - 1);  // Print alphabet starting from 'A'
         }
         printf("\n");  // Move to the next line
     }
