@@ -1,16 +1,16 @@
 #include<stdio.h>    // pyramid form of number5
 int main(){
-    int n;
+    int N;
     int i,j,k;
-    printf("enter the value of n:");
-    scanf("%d",&n);
-    for ( i =1;i<=n;i++){
-        for ( k =1;k<=n-i;k++){
+   
+    scanf("%d",&N);
+    for ( i =1;i<=N;i++){
+        for ( k =1;k<=N-i;k++){
             printf(" ");
         }
         
         
-        for ( j =1;j<=2*i-1;j++){
+        for ( j = 1;j<=2*i-1;j++){
         printf("*");
         
     }
