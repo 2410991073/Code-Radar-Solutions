@@ -6,7 +6,7 @@ int main(){
 
     for ( i = 1 ; i <= N;i++){
         for (j = 1; j <= i; j++){
-            if ( j % 2==0){
+            if ( j % 2==1){
                 printf("0 ");
             }
             else {
