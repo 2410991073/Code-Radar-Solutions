@@ -8,19 +8,19 @@ void reverse(int arr[],int start,int end){
         end--;
     }
 }
-void rotate_in_place(int arr[];int N;int K){
-    K=K%N;
-    reverse(arr,0,N-1);
-    reverse(arr,0,K-1);
-    reverse(arr,k,N-1);
+void rotate_in_place(int arr[];int n;int k){
+    k=k%n;
+    reverse(arr,0,n-1);
+    reverse(arr,0,k-1);
+    reverse(arr,k,n-1);
 }
 int main(){
-    int K,N;
-    scanf("%d",&N);
+    int k,n;
+    scanf("%d",&n);
     
-    rotate_in_place(arr,N,K);
+    rotate_in_place(arr,n,k);
     printf("array after in-place rotation:");
-    for(int i=0;i<N;i++){
+    for(int i=0;i<n;i++){
         printf("%d \n",arr[i]);
     }
     return 0;
