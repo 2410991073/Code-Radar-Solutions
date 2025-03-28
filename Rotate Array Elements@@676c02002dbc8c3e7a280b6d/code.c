@@ -33,7 +33,7 @@ int main() {
 
     // Print the rotated array
     for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);  // Print elements without extra new line
+        printf("%d \n", arr[i]);  // Print elements without extra new line
     }
     printf("\n");  // New line at the end for better formatting
 
