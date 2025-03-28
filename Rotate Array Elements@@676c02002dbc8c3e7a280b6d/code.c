@@ -11,7 +11,7 @@ void reverse(int arr[], int start, int end) {
 }
 
 void rotate_in_place(int arr[], int n, int k) {
-    k = k % n;  // To handle cases when k > n
+    k = k % n;  
     reverse(arr, 0, n - 1);
     reverse(arr, 0, k - 1);
     reverse(arr, k, n - 1);
@@ -19,21 +19,19 @@ void rotate_in_place(int arr[], int n, int k) {
 
 int main() {
     int n, k;
-    scanf("%d", &n);  // Input the size of the array
-    int arr[n];  // Declare an array of size n
+    scanf("%d", &n);  
+    int arr[n];  
 
-    // Input array elements
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 
-    scanf("%d", &k);  // Input the number of positions to rotate
+    scanf("%d", &k);  
     
-    rotate_in_place(arr, n, k);  // Rotate the array
+    rotate_in_place(arr, n, k);  
 
-    // Print the rotated array
     for (int i = 0; i < n; i++) {
-        printf("%d\n", arr[i]);  // Print elements without extra new line
+        printf("%d\n", arr[i]);  
     }
     
 
