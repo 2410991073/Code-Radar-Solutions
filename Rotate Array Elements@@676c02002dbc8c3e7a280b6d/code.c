@@ -35,7 +35,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         printf("%d\n", arr[i]);  // Print elements without extra new line
     }
-    printf("\n");  // New line at the end for better formatting
+    
 
     return 0;
 }
