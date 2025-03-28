@@ -18,7 +18,7 @@ int main(){
     int k,n;
     scanf("%d",&n);
     
-    rotate_in_place(arr[],n,k);
+    rotate_in_place(arr,n,k);
     for(int i=0;i<n;i++){
         printf("%d \n",arr[i]);
     }
